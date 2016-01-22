@@ -18,6 +18,7 @@ Plugin 'tpope/vim-fugitive'
 "Plugin 'L9'
 " Git plugin not hosted on GitHub
 "Plugin 'git://git.wincent.com/command-t.git'
+Plugin 'wincent/command-t'
 " git repos on your local machine (i.e. when working on your own plugin)
 "Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -25,6 +26,8 @@ Plugin 'tpope/vim-fugitive'
 "Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Avoid a name conflict with L9
 "Plugin 'user/L9', {'name': 'newL9'}
+
+"Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -151,4 +154,11 @@ function! ListBuffers()
 
     echo list
 endfunction
+
+" CommandT options
+let g:CommandTFileScanner="find"
+let g:CommandTTraverseSCM="pwd"
+let g:CommandTMaxHeight=0
+let g:CommandTGitScanSubmodules=1
+let g:CommandTWildIgnore="tools/x86*,tools/arm*,**/nautilus-toolchain-arm/*,**/3rdParty/*,*.o,*.d"
 

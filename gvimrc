@@ -1,3 +1,7 @@
+if has ("gui_gtk2")
+    set guifont=Andale\ Mono\ 11
+endif
+
 set columns=128 lines=48
 set vb		" visual bell
 set encoding=utf-8

@@ -35,12 +35,6 @@ if version >= 500
     syntax on
   endif
 
-  " Switch on search pattern highlighting.
-  set hlsearch
-
-  highlight WhitespaceEOL ctermbg=red guibg=red
-  match WhitespaceEOL /\s\+$/
-
   " For Win32 version, have "K" lookup the keyword in a help file
   "if has("win32")
   "  let winhelpfile='windows.hlp'

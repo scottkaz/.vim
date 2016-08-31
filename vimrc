@@ -65,6 +65,8 @@ set ignorecase
 set hidden
 set wildmode=list:longest
 
+set nomodeline
+
 set showcmd
 
 set nofoldenable

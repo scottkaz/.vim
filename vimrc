@@ -166,7 +166,7 @@ function! ListBuffers()
     echo list
 endfunction
 
-set grepprg=ag
+set grepprg=ag\ -s
 
 " CommandT options
 let g:CommandTFileScanner="find"

@@ -56,12 +56,7 @@ filetype plugin indent on    " required
 
 set backspace=indent,eol,start
 
-" Useful more often than not; can override for specific file types
 set ai
-set sw=4
-set smarttab
-set expandtab
-set tw=999
 
 set backup		" keep a backup file
 set backupdir=~/.vim_backup
@@ -107,11 +102,11 @@ if has("autocmd")
   augroup vimrcEx
   au!
 
-  " For all text files set 'textwidth' to 78 characters.
-  "autocmd FileType text setlocal textwidth=78
+  autocmd FileType text setlocal tw=78 sw=8 formatoptions=tcql2 noexpandtab nosmarttab
+  "autocmd BufRead *.txt setlocal tw=78 sw=8 formatoptions=tcqln noexpandtab nosmarttab
 
-  " the above line doesn't seem to actually work, so...
-  autocmd BufRead *.txt setlocal tw=78 formatoptions=tcqln noexpandtab nosmarttab
+  autocmd FileType python setlocal tw=78 sw=4 formatoptions=crqlnj expandtab smarttab
+  autocmd FileType sh setlocal tw=78 sw=4 formatoptions=crqlnj expandtab smarttab
 
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler

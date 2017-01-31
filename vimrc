@@ -39,7 +39,7 @@ Plugin 'wincent/command-t'
 " Avoid a name conflict with L9
 "Plugin 'user/L9', {'name': 'newL9'}
 
-"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'valloric/youcompleteme'
 
 Plugin 'rust-lang/rust.vim'
 
@@ -55,6 +55,11 @@ filetype plugin indent on    " required
 "
 " Put your non-Plugin stuff after this
 "--------------------------------------------------------------------
+
+" YouCompleteMe options
+"let g:ycm_extra_conf_globlist = ['~/mantis-top/*']
+"let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+"let g:ycm_autoclose_preview_window_after_insertion = 1
 
 set backspace=indent,eol,start
 

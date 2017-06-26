@@ -5,11 +5,11 @@
 * `git clone https://github.com/VundleVim/Vundle.vim.git`
 * start vim
 * within vim: `:PluginInstall`
-* compile the command-t plugin (see `:help command-t`)
+* compile the command-t plugin (see `:help command-t-compile`)
     * short version:
 ```
 $ sudo apt install ruby-dev
-$ cd ~/.vim/bundle/command-t/ruby/command-t
+$ cd ~/.vim/bundle/command-t/ruby/ext/command-t
 $ ruby extconf.rb
 $ make
 ```

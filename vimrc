@@ -189,9 +189,8 @@ endfunction
 set grepprg=ag\ -s
 
 " CommandT options
-let g:CommandTFileScanner="find"
+let g:CommandTFileScanner="git"
 let g:CommandTTraverseSCM="pwd"
 let g:CommandTMaxHeight=0
 let g:CommandTGitScanSubmodules=1
 let g:CommandTWildIgnore="tools/x86*,tools/arm*,**/nautilus-toolchain-arm/*,**/3rdParty/*,*.o,*.d"
-

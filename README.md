@@ -9,7 +9,7 @@
     * short version:
 ```
 $ sudo apt install ruby-dev
-$ cd ~/.vim/bundle/command-t/ruby/ext/command-t
+$ cd ~/.vim/bundle/command-t/ruby/command-t/ext/command-t
 $ ruby extconf.rb
 $ make
 ```

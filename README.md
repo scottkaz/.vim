@@ -1,3 +1,4 @@
+## Setup
 * clone this repo into ~/.vim
 * `cd ~/.vim`
 * `mkdir bundle`
@@ -14,3 +15,6 @@ $ ruby extconf.rb
 $ make
 ```
 * restart vim
+
+## Plugins
+* See top of vimrc for brief help on vundle plugins

@@ -121,7 +121,8 @@ if has("autocmd")
   autocmd FileType text setlocal tw=78 sw=8 formatoptions=tcql2 noexpandtab nosmarttab
   "autocmd BufRead *.txt setlocal tw=78 sw=8 formatoptions=tcqln noexpandtab nosmarttab
 
-  autocmd FileType python setlocal tw=78 sw=4 formatoptions=crqlnj expandtab smarttab
+  autocmd FileType python setlocal tw=999 sw=4 formatoptions=crqlnj expandtab smarttab
+  autocmd FileType json setlocal tw=999 sw=4 formatoptions=crqlnj expandtab smarttab
   autocmd FileType javascript setlocal tw=78 sw=4 formatoptions=crqlnj expandtab smarttab
   autocmd FileType html setlocal tw=78 sw=2 formatoptions=crqlnj expandtab smarttab
   autocmd FileType sh setlocal tw=78 sw=4 formatoptions=crqlnj expandtab smarttab

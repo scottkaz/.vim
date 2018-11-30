@@ -42,6 +42,7 @@ Plugin 'wincent/command-t'
 "Plugin 'valloric/youcompleteme'
 
 Plugin 'rust-lang/rust.vim'
+Plugin 'udalov/kotlin-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

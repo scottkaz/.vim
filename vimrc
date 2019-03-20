@@ -125,6 +125,7 @@ if has("autocmd")
   autocmd FileType python setlocal tw=999 sw=4 formatoptions=crqlnj expandtab smarttab
   autocmd FileType perl setlocal tw=999 sw=4 formatoptions=crqlnj expandtab smarttab
   autocmd FileType json setlocal tw=999 sw=4 formatoptions=crqlnj expandtab smarttab
+  autocmd FileType java setlocal tw=999 sw=4 formatoptions=crqlnj expandtab smarttab
   autocmd FileType javascript setlocal tw=78 sw=4 formatoptions=crqlnj expandtab smarttab
   autocmd FileType html setlocal tw=78 sw=2 formatoptions=crqlnj expandtab smarttab
   autocmd FileType sh setlocal tw=78 sw=4 formatoptions=crqlnj expandtab smarttab

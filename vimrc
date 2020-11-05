@@ -192,6 +192,7 @@ function! ListBuffers()
 endfunction
 
 set grepprg=ag\ -s
+set ruler
 
 " CommandT options
 let g:CommandTFileScanner="git"

@@ -195,8 +195,8 @@ set grepprg=ag\ -s
 set ruler
 
 " CommandT options
-let g:CommandTFileScanner="git"
-let g:CommandTTraverseSCM="pwd"
-let g:CommandTMaxHeight=0
-let g:CommandTGitScanSubmodules=0
-let g:CommandTWildIgnore="tools/x86*,tools/arm*,**/nautilus-toolchain-arm/*,**/3rdParty/*,*.o,*.d"
+"let g:CommandTFileScanner="git"
+"let g:CommandTTraverseSCM="pwd"
+"let g:CommandTMaxHeight=0
+"let g:CommandTGitScanSubmodules=0
+"let g:CommandTWildIgnore="tools/x86*,tools/arm*,**/nautilus-toolchain-arm/*,**/3rdParty/*,*.o,*.d"
